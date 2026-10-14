@@ -1,0 +1,7 @@
+@import url('./layout.css');
+@import url('./components.css');
+@import url('./pages.css');
+@import url('./responsive.css');
+
+:root{font-family:Inter,'Segoe UI',Arial,sans-serif;color:#24352e;background:#f5f6f3;font-synthesis:none;--green:#254f3d;--muted:#849088;--line:#e9ece6;--accent:#c6e99e}
+*{box-sizing:border-box}body{margin:0;font-size:13px}button,input,select,textarea{font:inherit}button,a,input,select,textarea{-webkit-tap-highlight-color:transparent}button,a{touch-action:manipulation}button{cursor:pointer}button:disabled{cursor:wait;opacity:.55}a{color:inherit;text-decoration:none}button{color:inherit}button:focus-visible,a:focus-visible{outline:3px solid #85af6c;outline-offset:3px}input:focus,select:focus,textarea:focus{outline:2px solid #94b58a;outline-offset:1px}h1,h2,h3,p{margin:0}h1{font-size:30px;letter-spacing:-1px;font-weight:650}h2{font-size:16px;letter-spacing:-.35px;font-weight:650}h3{font-size:14px}small{font-size:11px}svg{flex-shrink:0;vertical-align:middle}hr{border:0;border-top:1px solid var(--line);margin:26px 0}.muted{color:var(--muted)}.nowrap{white-space:nowrap}.overdue{color:#bf6d53!important}.boot{max-width:650px;margin:18vh auto;padding:36px;line-height:2}.required{color:#ad6656}::selection{background:#d3e9b8}

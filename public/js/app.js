@@ -1,0 +1,1 @@
+refresh().catch(e=>{$('#app').innerHTML=`<div class="boot"><h2>Не удалось подключиться к CRM</h2><p>${esc(e.message)}</p><p>Запустите сервер командой npm start и откройте http://localhost:3000.</p><button class="btn secondary" id="retry">Повторить</button></div>`;$('#retry').onclick=()=>location.reload();});
